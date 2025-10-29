@@ -27,14 +27,6 @@ class _RegistrationState extends State<Registration> {
         ],
         
       ),
-      body: Column(
-        children: [
-          Text("Your journey to success starts here", style: TextStyle(color: Colors.black, fontSize:15, fontWeight: FontWeight.bold),
-          ),
-          SizedBox(height: 5,),
-          Text("Discover your strengths, explore your intrests,and get personalized career guidance. Career Path helps you make confident decisions aabout your self", style: TextStyle(color: Colors.black, fontSize: 15),),
-        ],
-      ),
     
     );
   }
