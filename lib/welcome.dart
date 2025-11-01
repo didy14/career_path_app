@@ -1,14 +1,14 @@
 import 'package:career_path_app/login.dart';
 import 'package:flutter/material.dart';
 
-class Registration extends StatefulWidget {
-  const Registration({super.key});
+class Welcome extends StatefulWidget {
+  const Welcome({super.key});
 
   @override
-  State<Registration> createState() => _RegistrationState();
+  State<Welcome> createState() => _WelcomeState();
 }
 
-class _RegistrationState extends State<Registration> {
+class _WelcomeState extends State<Welcome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

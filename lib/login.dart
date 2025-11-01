@@ -43,7 +43,7 @@ class _LoginState extends State<Login> {
                 decoration: BoxDecoration(
                   color: Colors.white.withOpacity(0.2),
                   borderRadius: BorderRadius.circular(25),
-                  border: Border.all(color: Colors.deepOrangeAccent),
+                  border: Border.all(color: Colors.green),
                 ),
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
@@ -51,7 +51,7 @@ class _LoginState extends State<Login> {
                     const CircleAvatar(
                       radius: 30,
                       backgroundColor: Colors.white,
-                      child: Icon(Icons.person, size: 40, color: Colors.indigo),
+                      child: Icon(Icons.person, size: 40, color: Colors.green),
                     ),
                     const SizedBox(height: 20),
                     TextField(
@@ -78,6 +78,7 @@ class _LoginState extends State<Login> {
                       controller: passwordController,
                       obscureText: _obscurePassword,
                       decoration: InputDecoration(
+                        
                         filled: true,
                         fillColor: Colors.white.withOpacity(0.3),
                         prefixIcon: const Icon(Icons.lock, color: Colors.white),

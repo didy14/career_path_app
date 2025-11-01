@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:career_path_app/registration.dart';
+import 'package:career_path_app/welcome.dart';
 import 'package:flutter/material.dart';
 
 class Homescreen extends StatefulWidget {
@@ -16,7 +16,7 @@ class _HomescreenState extends State<Homescreen> {
     super.initState();
     Timer(
       const Duration(seconds: 5),
-      () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => Registration())),
+      () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => Welcome())),
     );
   }
 
